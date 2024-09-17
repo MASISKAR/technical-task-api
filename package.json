@@ -1,0 +1,35 @@
+{
+  "name": "technical-task-api",
+  "version": "0.0.1",
+  "description": "Technical task API (Munich Ventures)",
+  "author": "Masis Karapetyan",
+  "main": "server.js",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon run start",
+    "eslint": "./node_modules/.bin/eslint ./src"
+  },
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.6.2",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "nodemon": "^3.0.2"
+  }
+}

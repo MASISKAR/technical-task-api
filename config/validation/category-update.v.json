@@ -1,0 +1,24 @@
+{
+  "title": "update a category",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ]
+    }
+  },
+  "required": [
+    "body"
+  ]
+}

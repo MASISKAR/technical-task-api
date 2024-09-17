@@ -1,0 +1,30 @@
+{
+  "title": "add a product",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "price"
+      ]
+    }
+  },
+  "required": [
+    "body"
+  ]
+}
